@@ -61,6 +61,7 @@ function switchicon() {
         lightBulb.src = "content/noli_rood.gif";
         iconStatus = true;
         drum.volume = 1
+        drum2.volume = 0
 
 
     }
@@ -98,7 +99,7 @@ painoknop.addEventListener('click', switchicon2);
 function switchicon3() {
     if (iconStatus3 == true) {
         lightBulb3.src = "content/noli_basis.png";
-        iconStatus = false;
+        iconStatus3 = false;
         lead.volume = 0
 
     } else if (iconStatus3 == false) {
@@ -125,6 +126,7 @@ function switchicon4() {
         lightBulb4.src = "content/noli_rood.gif";
         iconStatus4 = true;
         drum2.volume = 1
+        drum.volume = 0
 
     }
 }

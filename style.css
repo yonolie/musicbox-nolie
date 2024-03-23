@@ -1,0 +1,95 @@
+body{
+	background:white;
+	color: #fff;
+	font-family: sans-serif;
+	width: 100vw;
+	margin: 0;
+}
+
+
+
+/* index */
+
+.begin button {
+
+height: 50%;
+
+}
+
+
+
+/* opties */
+
+.opties h1 {
+	color: black;
+	text-align: center;
+}
+
+.opties img {
+
+ height: 30vw;
+}
+
+
+
+/* game */
+
+
+.game div {
+	position: fixed;
+	align-items: center;
+	padding-top: 8.7em;
+
+}
+
+.game {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+	text-align: center;
+}
+
+
+
+#studio {
+	height: 20em;
+	width: 90%;
+	align-items: center;
+}
+
+#icon {
+  height: 25vh;
+
+}
+
+#icon2 {
+	height: 25vh;
+
+}
+
+#icon3 {
+	height: 25vh;
+
+}
+
+.hide {
+	display: none;
+}
+
+#button1 {
+	height: 10em;
+}
+
+#button2 {
+	height: 10em;
+}
+
+#button3 {
+	height: 10em;
+}
+
+#button4 {
+	height: 10em;
+}
+

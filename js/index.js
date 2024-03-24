@@ -10,14 +10,15 @@ let iconStatus3 = false;
 let iconStatus4 = false;
 
 
+
 let piano = new Audio('muziek/afro/melody1.mp3')
-let drum = new Audio('../muziek/afro/drum1.mp3')
-let drum2 = new Audio('../muziek/afro/drum2.mp3')
-let lead = new Audio('../muziek/afro/lead1.mp3')
+let drum = new Audio('muziek/afro/drum1.mp3')
+let drum2 = new Audio('muziek/afro/drum2.mp3')
+let lead = new Audio('muziek/afro/lead1.mp3')
 
 
 
-
+// bron julian/
 function startmusic() {
 
     nolie.classList.remove('hide')
@@ -48,7 +49,8 @@ button.addEventListener('click', startmusic)
 
 
 
-
+// alle de nolie img poppetjes bron thomas  /
+// techniek half julian half de lightbulb opdracht/
 
 function switchicon() {
     if (iconStatus == true) {

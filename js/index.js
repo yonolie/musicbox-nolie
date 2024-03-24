@@ -10,7 +10,7 @@ let iconStatus3 = false;
 let iconStatus4 = false;
 
 
-let piano = new Audio('../muziek/afro/melody1.mp3')
+let piano = new Audio('muziek/afro/melody1.mp3')
 let drum = new Audio('../muziek/afro/drum1.mp3')
 let drum2 = new Audio('../muziek/afro/drum2.mp3')
 let lead = new Audio('../muziek/afro/lead1.mp3')

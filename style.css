@@ -1,5 +1,5 @@
-body{
-	background:white;
+body {
+	background: white;
 	color: #fff;
 	font-family: sans-serif;
 	width: 100vw;
@@ -12,7 +12,7 @@ body{
 
 .begin button {
 	background-color: red;
-	border: 2px; 
+	border: 2px;
 	color: white;
 	text-align: center;
 	font-size: 5em;
@@ -20,6 +20,8 @@ body{
 	width: auto;
 	margin-left: 7.9em;
 	margin-top: 3.5em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .begin button:hover {
@@ -34,13 +36,14 @@ body{
 .opties h1 {
 	color: black;
 	text-align: center;
+	font-size: 5em;
 }
 
 .opties img {
 
- height: 20vw;
- padding-left: 38.5em;
- transition: transform 0.3s ease;
+	height: 20vw;
+	padding-left: 38.5em;
+	transition: transform 0.3s ease;
 }
 
 .opties img:hover {
@@ -55,7 +58,7 @@ body{
 
 .game button {
 	background-color: red;
-	border: 2px; 
+	border: 2px;
 	color: white;
 	text-align: center;
 	font-size: 1em;
@@ -99,7 +102,7 @@ body{
 }
 
 #icon {
-  height: 25vh;
+	height: 25vh;
 
 }
 
@@ -138,21 +141,20 @@ body{
 
 #button1:hover {
 	transform: scale(1.1);
-	
-}#button2:hover {
+
+}
+
+#button2:hover {
 	transform: scale(1.1);
-	
+
 }
 
 #button3:hover {
 	transform: scale(1.1);
-	
+
 }
 
 #button4:hover {
 	transform: scale(1.1);
-	
+
 }
-
-
-

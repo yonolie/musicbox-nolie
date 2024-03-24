@@ -18,7 +18,7 @@ let lead = new Audio('muziek/afro/lead1.mp3')
 
 
 
-// bron julian/
+// bron julian /
 function startmusic() {
 
     nolie.classList.remove('hide')

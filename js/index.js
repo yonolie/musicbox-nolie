@@ -1,7 +1,7 @@
-const lightBulb = document.querySelector("#icon");
-const lightBulb2 = document.querySelector("#icon2");
-const lightBulb3 = document.querySelector("#icon3");
-const lightBulb4 = document.querySelector("#icon");
+const nolie = document.querySelector("#icon");
+const nolie2 = document.querySelector("#icon2");
+const nolie3 = document.querySelector("#icon3");
+const nolie4 = document.querySelector("#icon");
 
 
 let iconStatus = false;
@@ -20,9 +20,9 @@ let lead = new Audio('../muziek/afro/lead1.mp3')
 
 function startmusic() {
 
-    lightBulb.classList.remove('hide')
-    lightBulb2.classList.remove('hide')
-    lightBulb3.classList.remove('hide')
+    nolie.classList.remove('hide')
+    nolie2.classList.remove('hide')
+    nolie3.classList.remove('hide')
 
     button.classList.add('hide')
 
@@ -42,7 +42,7 @@ function startmusic() {
 
 }
 
-const button = document.querySelector('.startbitch')
+const button = document.querySelector('.startgame')
 button.addEventListener('click', startmusic)
 
 
@@ -52,13 +52,13 @@ button.addEventListener('click', startmusic)
 
 function switchicon() {
     if (iconStatus == true) {
-        lightBulb.src = "content/noli_basis.png";
+        nolie.src = "content/noli_basis.png";
         iconStatus = false;
 
         drum.volume = 0
 
     } else if (iconStatus == false) {
-        lightBulb.src = "content/noli_rood.gif";
+        nolie.src = "content/noli_rood.gif";
         iconStatus = true;
         drum.volume = 1
         drum2.volume = 0
@@ -74,18 +74,18 @@ drumknop.addEventListener('click', switchicon);
 
 function switchicon2() {
     if (iconStatus2 == true) {
-        lightBulb2.src = "content/noli_basis.png";
+        nolie2.src = "content/noli_basis.png";
         iconStatus2 = false;
         piano.volume = 0
 
     } else if (iconStatus2 == false) {
-        lightBulb2.src = "content/noli_geel.gif";
+        nolie2.src = "content/noli_geel.gif";
         iconStatus2 = true;
         piano.volume = 1
 
     }
 
-    
+
 }
 
 const painoknop = document.querySelector('#button1');
@@ -98,12 +98,12 @@ painoknop.addEventListener('click', switchicon2);
 
 function switchicon3() {
     if (iconStatus3 == true) {
-        lightBulb3.src = "content/noli_basis.png";
+        nolie3.src = "content/noli_basis.png";
         iconStatus3 = false;
         lead.volume = 0
 
     } else if (iconStatus3 == false) {
-        lightBulb3.src = "content/noli_blauw.gif";
+        nolie3.src = "content/noli_blauw.gif";
         iconStatus3 = true;
         lead.volume = 1
 
@@ -118,12 +118,12 @@ leadknop.addEventListener('click', switchicon3);
 
 function switchicon4() {
     if (iconStatus4 == true) {
-        lightBulb4.src = "content/noli_basis.png";
+        nolie4.src = "content/noli_basis.png";
         iconStatus4 = false;
         drum2.volume = 0
 
     } else if (iconStatus4 == false) {
-        lightBulb4.src = "content/noli_rood.gif";
+        nolie4.src = "content/noli_rood.gif";
         iconStatus4 = true;
         drum2.volume = 1
         drum.volume = 0

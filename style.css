@@ -10,12 +10,13 @@ body{
 
 /* index */
 
-.begin button {
-
-height: 50%;
+.begin p {
+	text-align: center;
+	border-radius: 3em;
+	background-color: green;
+	font-size: large;
 
 }
-
 
 
 /* opties */
@@ -27,7 +28,8 @@ height: 50%;
 
 .opties img {
 
- height: 30vw;
+ height: 20vw;
+ align-items: center;
 }
 
 

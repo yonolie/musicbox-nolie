@@ -10,12 +10,22 @@ body{
 
 /* index */
 
-.begin p {
+.begin button {
+	background-color: red;
+	border: 2px; 
+	color: white;
 	text-align: center;
-	border-radius: 3em;
-	background-color: green;
-	font-size: large;
+	font-size: 5em;
+	border-radius: 0.4em;
+	width: auto;
+	margin-left: 7.9em;
+	margin-top: 3.5em;
+}
 
+.begin button:hover {
+	background-color: green;
+	transition: 0.5s;
+	border: 2px solid white;
 }
 
 
@@ -29,18 +39,42 @@ body{
 .opties img {
 
  height: 20vw;
- align-items: center;
+ padding-left: 38.5em;
+ transition: transform 0.3s ease;
 }
 
+.opties img:hover {
+	transform: scale(1.1);
+
+}
+
+/* inzoom effect bron chatgpt */
 
 
 /* game */
+
+.game button {
+	background-color: red;
+	border: 2px; 
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	border-radius: 0.4em;
+	width: auto;
+}
+
+.game button:hover {
+	background-color: green;
+	transition: 0.5s;
+	border: 2px solid white;
+}
+
 
 
 .game div {
 	position: fixed;
 	align-items: center;
-	padding-top: 8.7em;
+	padding-top: 8.6em;
 
 }
 
@@ -52,11 +86,15 @@ body{
 	text-align: center;
 }
 
+.hide {
+	display: none;
+}
+
 
 
 #studio {
 	height: 20em;
-	width: 90%;
+	width: 100%;
 	align-items: center;
 }
 
@@ -75,23 +113,46 @@ body{
 
 }
 
-.hide {
-	display: none;
-}
+
 
 #button1 {
 	height: 10em;
+	transition: transform 0.3s ease;
 }
 
 #button2 {
 	height: 10em;
+	transition: transform 0.3s ease;
 }
 
 #button3 {
 	height: 10em;
+	transition: transform 0.3s ease;
 }
 
 #button4 {
 	height: 10em;
+	transition: transform 0.3s ease;
 }
+
+
+#button1:hover {
+	transform: scale(1.1);
+	
+}#button2:hover {
+	transform: scale(1.1);
+	
+}
+
+#button3:hover {
+	transform: scale(1.1);
+	
+}
+
+#button4:hover {
+	transform: scale(1.1);
+	
+}
+
+
 

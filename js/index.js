@@ -4,12 +4,17 @@ const nolie3 = document.querySelector("#icon3");
 const nolie4 = document.querySelector("#icon");
 
 
+
+// Variabele gemaakt om de status van het icoon bij te houden
+
 let iconStatus = false;
 let iconStatus2 = false;
 let iconStatus3 = false;
 let iconStatus4 = false;
 
 
+// Maak een Audio object voor de muziek vsn de knoppen./
+// bron kwart julian na een probleem het zelf uitgevonden met chatgpt 
 
 let piano = new Audio('muziek/afro/melody1.mp3')
 let drum = new Audio('muziek/afro/drum1.mp3')
@@ -19,7 +24,12 @@ let lead = new Audio('muziek/afro/lead1.mp3')
 
 
 // bron julian /
+// Start de muziek en laat de afbeeldingen zien wanneer op de button kilkt
+
 function startmusic() {
+    
+    // Verwijder de klasse 'hide' van alle iconen.
+
 
     nolie.classList.remove('hide')
     nolie2.classList.remove('hide')
@@ -49,8 +59,9 @@ button.addEventListener('click', startmusic)
 
 
 
-// alle de nolie img poppetjes bron thomas  /
+// alle de nolie afbeelding poppetjes bron thomas  /
 // techniek half julian half de lightbulb opdracht/
+// Functie om het eerste icoon te schakelen voor de game 
 
 function switchicon() {
     if (iconStatus == true) {
@@ -63,11 +74,12 @@ function switchicon() {
         nolie.src = "content/noli_rood.gif";
         iconStatus = true;
         drum.volume = 1
-        drum2.volume = 0
-
+        drum2.volume = 0 // Zet het volume van de tweede drum op 0 wanneer je op de eerst drum heb geklikt
 
     }
 }
+
+// Roept de funcite aan en selecteer het element 
 
 const drumknop = document.querySelector('#button2');
 drumknop.addEventListener('click', switchicon);
@@ -86,16 +98,10 @@ function switchicon2() {
         piano.volume = 1
 
     }
-
-
 }
 
 const painoknop = document.querySelector('#button1');
 painoknop.addEventListener('click', switchicon2);
-
-
-
-
 
 
 function switchicon3() {
